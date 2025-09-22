@@ -27,7 +27,7 @@ export default function Hero() {
                     initial={{ opacity: 0, x: -50 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1.5, delay: 0.5 }}
-                    className='sub-title'>Welcome to my portfolio! Explore my projects, skills, and the latest web technologies I work with to deliver exceptional user experiences.
+                    className='sub-title'>Welcome to my portfolio! Explore my projects, skills.
                 </motion.p>
 
                 <motion.div 

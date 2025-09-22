@@ -24,9 +24,7 @@ export default function Header() {
 
       <nav>
         <ul className='flex'>
-          <li>
-            <a href="#header">About</a> {/* رابط يؤدي إلى بداية الصفحة */}
-          </li>
+       
           <li>
             <a href="#skill">Skills</a> {/* رابط يؤدي إلى بداية الصفحة */}
           </li>
@@ -57,7 +55,7 @@ export default function Header() {
               <button className='icon-close' onClick={() => setShowModel(false)} />
             </li>
             {/* الروابط الداخلية في الـ Model */}
-            <li><a href="#header">About</a></li>
+           
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
